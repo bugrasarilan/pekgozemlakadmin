@@ -16,18 +16,18 @@ const HeaderTasks: React.FC = () => {
   const day: number = date.getDate();
 
   const monthName: string[] = [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December",
+    "Ocak",
+    "Şubat",
+    "Mart",
+    "Nisan",
+    "Mayıs",
+    "Haziran",
+    "Temmuz",
+    "Ağustos",
+    "Eylül",
+    "Ekim",
+    "Kasım",
+    "Aralık",
   ];
 
   const todayDate = `${year}, ${monthName[month].slice(0, 3)} ${day

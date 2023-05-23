@@ -33,8 +33,8 @@ const App: React.FC = () => {
       )}
       <Menu />
       <TasksSection />
-      <Footer />
-      <AccountData />
+      {/* <Footer /> */}
+      {/* <AccountData /> */}
     </div>
   );
 };

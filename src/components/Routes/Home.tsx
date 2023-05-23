@@ -6,8 +6,8 @@ import useDescriptionTitle from "../hooks/useDescriptionTitle";
 const Home: React.FC = () => {
   const tasks = useAppSelector((state) => state.tasks.tasks);
 
-  useDescriptionTitle("Organize your tasks", "All tasks");
-  return <LayoutRoutes title="All tasks" tasks={tasks}></LayoutRoutes>;
+  useDescriptionTitle("Organize your tasks", "Güvenilir");
+  return <LayoutRoutes title="Bütün Mülkler" tasks={tasks}></LayoutRoutes>;
 };
 
 export default Home;

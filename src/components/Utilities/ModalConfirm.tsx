@@ -14,9 +14,9 @@ const ModalConfirm: React.FC<{
     <Modal onClose={onClose} title="Are you sure?">
       <p className="text-slate-500">{text}</p>
       <div className="mt-7 ml-auto">
-        <button onClick={onClose}>Cancel</button>
+        <button onClick={onClose}>İptal et</button>
         <button onClick={confirmAndCloseModal} className="btn ml-6">
-          Confirm
+        Onayla
         </button>
       </div>
     </Modal>

@@ -61,7 +61,7 @@ const SearchField: React.FC = () => {
         <input
           type="search"
           id="search"
-          placeholder="Search task"
+          placeholder="Mülk Ara"
           ref={searchResultsRef}
           onKeyUp={({ currentTarget }) => {
             setSearchInputValue(currentTarget.value);
@@ -82,11 +82,11 @@ const SearchField: React.FC = () => {
                   onClick={navigateToSearchResults}
                   className="bg-rose-100 w-full p-2 rounded-md text-rose-600 dark:bg-slate-700/[.3] dark:text-slate-200"
                 >
-                  All results for "{searchInputValue}"
+                  İçeren Tüm Sonuçlar"{searchInputValue}"
                 </button>
               </>
             ) : (
-              <span>No tasks found</span>
+              <span>Aradığınız Mülk Bulunamadı</span>
             )}
           </div>
         )}

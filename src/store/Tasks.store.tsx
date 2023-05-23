@@ -11,7 +11,7 @@ const defaultTasks: Task[] = [
   {
     title: "Task 1",
     important: false,
-    description: "This is the description for this task",
+    description: "Th is the description for thissssss task",
     date: "2023-04-12",
     dir: "Main",
     completed: true,

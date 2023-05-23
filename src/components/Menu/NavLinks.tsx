@@ -3,25 +3,26 @@ import { NavLink, useLocation } from "react-router-dom";
 
 const links = [
   {
-    name: "Today's tasks",
+    name: "Müşteriler",
     path: "/today",
   },
   {
-    name: "All tasks",
+    name: "Mülkler",
     path: "/",
   },
   {
-    name: "Important tasks",
+    name: "Bildirimler",
     path: "/important",
   },
   {
-    name: "Completed tasks",
+    name: "İstatistikler",
     path: "/completed",
   },
   {
-    name: "Uncompleted tasks",
+    name: "Tün Satışlar",
     path: "/uncompleted",
   },
+
 ];
 
 const NavLinks: React.FC<{ classActive: string }> = ({ classActive }) => {

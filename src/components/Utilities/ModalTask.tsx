@@ -117,10 +117,10 @@ const ModalCreateTask: React.FC<{
         onSubmit={addNewTaskHandler}
       >
         <label>
-          Title
+          İsim
           <input
             type="text"
-            placeholder="e.g, study for the test"
+            placeholder="Mülk İsmi Girin"
             required
             value={title}
             onChange={({ target }) => setTitle(target.value)}
@@ -128,7 +128,7 @@ const ModalCreateTask: React.FC<{
           />
         </label>
         <label>
-          Date
+     Tarih
           <input
             type="date"
             className="w-full"
@@ -140,15 +140,15 @@ const ModalCreateTask: React.FC<{
           />
         </label>
         <label>
-          Description (optional)
+      Açıklama 
           <textarea
-            placeholder="e.g, study for the test"
+            placeholder="İsteğe bağlı"
             className="w-full"
             value={description}
             onChange={({ target }) => setDescription(target.value)}
           ></textarea>
         </label>
-        <label>
+        {/* <label>
           Select a directory
           <select
             className="block w-full"
@@ -165,16 +165,16 @@ const ModalCreateTask: React.FC<{
               </option>
             ))}
           </select>
-        </label>
+        </label> */}
         <InputCheckbox
           isChecked={isImportant}
           setChecked={setIsImportant}
-          label="Mark as important"
+          label="Önemli Olarak İşaretle"
         />
         <InputCheckbox
           isChecked={isCompleted}
           setChecked={setIsCompleted}
-          label="Mark as completed"
+          label="Tamamlandı "
         />
         <button type="submit" className="btn mt-5">
           {nameForm}
